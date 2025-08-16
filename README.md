@@ -75,14 +75,14 @@ This project aims to build a **data-driven screening tool** for water safety cla
 - Model performance comparison chart
 
 ---
+## 🏆 Conclusion
+- Random Forest was the best performing model (F1 = 0.66).
+- While this tool is not a replacement for laboratory testing, it provides a fast, low-cost, first-pass screening for water safety assessment.
+pip install -r requirements.txt
+jupyter notebook Water_Prediction.ipynb
 
 ## 🚀 How to Run
 ```bash
 git clone https://github.com/sherryyy00/water-potability-ml.git
 cd water-potability-ml
 
-## 🏆 Conclusion
-- Random Forest was the best performing model (F1 = 0.66).
-- While this tool is not a replacement for laboratory testing, it provides a fast, low-cost, first-pass screening for water safety assessment.
-pip install -r requirements.txt
-jupyter notebook Water_Prediction.ipynb
