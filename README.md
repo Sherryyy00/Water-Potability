@@ -13,7 +13,7 @@ This project aims to build a **data-driven screening tool** for water safety cla
 ---
 
 ## 🧾 Dataset
-- Source: (https://www.kaggle.com/datasets/adityakadiwal/water-potability)) (Water Potability dataset)  
+- Source: [Water Potability dataset on Kaggle](https://www.kaggle.com/datasets/adityakadiwal/water-potability)  
 - Features:
   - `ph`
   - `Hardness`
@@ -78,11 +78,11 @@ This project aims to build a **data-driven screening tool** for water safety cla
 ## 🏆 Conclusion
 - Random Forest was the best performing model (F1 = 0.66).
 - While this tool is not a replacement for laboratory testing, it provides a fast, low-cost, first-pass screening for water safety assessment.
-pip install -r requirements.txt
-jupyter notebook Water_Prediction.ipynb
 
 ## 🚀 How to Run
 ```bash
-git clone https://github.com/sherryyy00/water-potability-ml.git
-cd water-potability-ml
-
+git clone https://github.com/Sherryyy00/Water-Potability.git
+cd Water-Potability
+pip install -r requirements.txt
+jupyter notebook Water_Prediction.ipynb
+```
